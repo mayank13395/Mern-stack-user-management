@@ -4,7 +4,6 @@
 	"description": "user management for nodejs based express server",
 	"main": "index.js",
 	"scripts": {
-		"commit": "git-cz",
 		"server": "node build/server.js",
 		"start": "tsc-watch --outDir ./build --onSuccess \"npm run server -- --mode=http\" --onFailure \"echo ERROR! Compilation Failed\""
 	},
